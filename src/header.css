@@ -1,0 +1,64 @@
+#header-full {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center; 
+    background: #e3f1fe;
+  }
+  
+  #header-left {
+    background: #fff;
+    padding: 10px;
+    display: flex;
+    /* margin-top: 15px; */
+    align-items: center; 
+    height: 100%; 
+    justify-content: center;
+  }
+  
+  #header-right {
+    background: #e3f1fe;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    vertical-align: middle;
+  }
+  
+  #header-box {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    padding: 5px; 
+    border-radius: 10%;
+    height: max-content;
+    box-sizing: border-box;
+  }
+  
+  #header-button {
+    height: max-content;
+    border-radius: 10%;
+    box-sizing: border-box;
+    box-shadow: none;
+    margin-right: 5%;
+  }
+  
+  
+  img {
+    max-height: 50px;
+  }
+  
+  .MuiAvatar-root {
+    width: 30px;
+    height: 30px; 
+    margin-right: 10px;
+  }
+  
+  .MuiAvatar-circle {
+    border-radius: 50%;
+  }
+  
+  .MuiTypography-root {
+    color: #333;
+    font-size: 16px;
+  }
+  
